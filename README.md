@@ -1,0 +1,1 @@
+# FukuUniBlog_Bot
