@@ -1,0 +1,163 @@
+{
+  "messages": [
+    {
+      "type": "flex",
+      "altText": "Curl Test Message",
+      "contents": {
+        "type": "carousel",
+        "contents": [
+          {
+            "type": "bubble",
+            "hero": {
+              "type": "image",
+              "size": "full",
+              "aspectRatio": "3:2",
+              "aspectMode": "cover",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "md",
+                  "text": "【工学部】春の見学会を開催！",
+                  "contents": []
+                },
+                {
+                  "type": "separator"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "Date",
+                      "size": "sm",
+                      "color": "#999999"
+                    },
+                    {
+                      "type": "text",
+                      "text": "2023/03/18",
+                      "size": "sm",
+                      "color": "#0095db",
+                      "offsetStart": "xs",
+                      "flex": 3
+                    }
+                  ],
+                  "paddingStart": "md"
+                }
+              ]
+            },
+            "footer": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "action": {
+                    "type": "uri",
+                    "label": "ブログ詳細",
+                    "uri": "https://linecorp.com"
+                  },
+                  "offsetBottom": "sm"
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "See more",
+                    "uri": "https://linecorp.com"
+                  },
+                  "style": "secondary"
+                }
+              ]
+            }
+          },
+          {
+            "type": "bubble",
+            "hero": {
+              "type": "image",
+              "size": "full",
+              "aspectRatio": "3:2",
+              "aspectMode": "cover",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png"
+            },
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "2023/03/18",
+                      "flex": 5,
+                      "size": "sm",
+                      "color": "#0095db"
+                    },
+                    {
+                      "type": "text",
+                      "text": "投稿",
+                      "flex": 11,
+                      "size": "sm",
+                      "position": "relative"
+                    }
+                  ]
+                },
+                {
+                  "type": "separator"
+                },
+                {
+                  "type": "text",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "md",
+                  "text": "【情報工学科】共同研究にもとづく次世代DX人材の育成プログラムを体験",
+                  "margin": "sm",
+                  "contents": []
+                }
+              ]
+            },
+            "footer": {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "action": {
+                    "type": "uri",
+                    "label": "ブログ詳細",
+                    "uri": "https://linecorp.com"
+                  },
+                  "offsetBottom": "sm"
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "See more",
+                    "uri": "https://linecorp.com"
+                  },
+                  "style": "secondary"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
